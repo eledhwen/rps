@@ -14,16 +14,16 @@ public class ActionTest
     @Test
     void beatTest()
     {
-        Assertions.assertTrue(ROCK.beats(SCISSOR));
-        Assertions.assertTrue(SCISSOR.beats(PAPER));
+        Assertions.assertTrue(ROCK.beats(SCISSORS));
+        Assertions.assertTrue(SCISSORS.beats(PAPER));
         Assertions.assertTrue(PAPER.beats(ROCK));
     }
 
     @Test
     void beatenTest()
     {
-        Assertions.assertFalse(SCISSOR.beats(ROCK));
-        Assertions.assertFalse(PAPER.beats(SCISSOR));
+        Assertions.assertFalse(SCISSORS.beats(ROCK));
+        Assertions.assertFalse(PAPER.beats(SCISSORS));
         Assertions.assertFalse(ROCK.beats(PAPER));
     }
 
@@ -31,7 +31,7 @@ public class ActionTest
     void drawTest()
     {
         Assertions.assertFalse(ROCK.beats(ROCK));
-        Assertions.assertFalse(SCISSOR.beats(SCISSOR));
+        Assertions.assertFalse(SCISSORS.beats(SCISSORS));
         Assertions.assertFalse(PAPER.beats(PAPER));
     }
 }

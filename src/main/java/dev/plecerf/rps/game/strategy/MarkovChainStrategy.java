@@ -1,6 +1,5 @@
 package dev.plecerf.rps.game.strategy;
 
-import com.noleme.commons.string.Strings;
 import dev.plecerf.rps.game.Action;
 import dev.plecerf.rps.game.outcome.Outcome;
 
@@ -25,7 +24,7 @@ public class MarkovChainStrategy implements GameStrategy
     private Action lastCPUPlayedAction;
     private Action lastPlayerPlayedAction;
 
-    private static final Action[] possibleActions = {ROCK, PAPER, SCISSOR};
+    private static final Action[] possibleActions = {ROCK, PAPER, SCISSORS};
 
     public MarkovChainStrategy()
     {

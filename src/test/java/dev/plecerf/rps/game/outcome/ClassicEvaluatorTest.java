@@ -28,7 +28,7 @@ public class ClassicEvaluatorTest
         outcome = evaluator.evaluate(ROCK, PAPER, counters);
         computeOutcomeTest(LOST, outcome, counters, 1, 0, 1);
 
-        outcome = evaluator.evaluate(ROCK, SCISSOR, counters);
+        outcome = evaluator.evaluate(ROCK, SCISSORS, counters);
         computeOutcomeTest(WON, outcome, counters, 2, 1, 1);
 
         outcome = evaluator.evaluate(PAPER, ROCK, counters);
@@ -37,16 +37,16 @@ public class ClassicEvaluatorTest
         outcome = evaluator.evaluate(PAPER, PAPER, counters);
         computeOutcomeTest(DRAW, outcome, counters, 3, 2, 1);
 
-        outcome = evaluator.evaluate(PAPER, SCISSOR, counters);
+        outcome = evaluator.evaluate(PAPER, SCISSORS, counters);
         computeOutcomeTest(LOST, outcome, counters, 4, 2, 2);
 
-        outcome = evaluator.evaluate(SCISSOR, ROCK, counters);
+        outcome = evaluator.evaluate(SCISSORS, ROCK, counters);
         computeOutcomeTest(LOST, outcome, counters, 5, 2, 3);
 
-        outcome = evaluator.evaluate(SCISSOR, PAPER, counters);
+        outcome = evaluator.evaluate(SCISSORS, PAPER, counters);
         computeOutcomeTest(WON, outcome, counters, 6, 3, 3);
 
-        outcome = evaluator.evaluate(SCISSOR, SCISSOR, counters);
+        outcome = evaluator.evaluate(SCISSORS, SCISSORS, counters);
         computeOutcomeTest(DRAW, outcome, counters, 6, 3, 3);
     }
 

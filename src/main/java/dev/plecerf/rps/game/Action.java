@@ -8,16 +8,16 @@ public enum Action
 {
     ROCK,
     PAPER,
-    SCISSOR,
+    SCISSORS,
     CONCEDE,
     ;
 
     private Action beats;
 
     static {
-        ROCK.beats = SCISSOR;
+        ROCK.beats = SCISSORS;
         PAPER.beats = ROCK;
-        SCISSOR.beats = PAPER;
+        SCISSORS.beats = PAPER;
     }
 
     public boolean beats(Action other)

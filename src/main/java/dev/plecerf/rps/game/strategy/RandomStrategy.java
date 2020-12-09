@@ -11,7 +11,7 @@ import static dev.plecerf.rps.game.Action.*;
  */
 public class RandomStrategy implements GameStrategy
 {
-    private static final Action[] possibleActions = {ROCK, PAPER, SCISSOR};
+    private static final Action[] possibleActions = {ROCK, PAPER, SCISSORS};
 
     @Override
     public Action play()

@@ -16,7 +16,7 @@ public class MirrorStrategyTest
     @Test
     void test()
     {
-        Action[] plays = {SCISSOR, ROCK, PAPER, ROCK, PAPER, SCISSOR, PAPER};
+        Action[] plays = {SCISSORS, ROCK, PAPER, ROCK, PAPER, SCISSORS, PAPER};
         GameStrategy strategy = new MirrorStrategy();
 
         /* First should be random, so we ignore that */

@@ -47,7 +47,7 @@
     </dependencies>
 
     <build>
-        <finalName>plecerf-rps</finalName>
+        <finalName>${project.artifactId}</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -75,7 +75,7 @@
                                     <mainClass>dev.plecerf.rps.Main</mainClass>
                                 </transformer>
                             </transformers>
-                            <finalName>${project.artifactId}</finalName>
+                            <finalName>rock-paper-scissors</finalName>
                         </configuration>
                     </execution>
                 </executions>

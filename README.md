@@ -23,6 +23,12 @@ mvn package
 
 ## II. How to Play
 
+For launching commands, simply run the jar and provide a valid command name, eg. `play`:
+
+```shell
+java -jar target/rock-paper-scissors.jar play
+```
+
 ### A. The `play` command
 
 The `play` command currently accepts 3 optional parameters:
@@ -52,7 +58,7 @@ If you need to exit the game prematurely without conceding, a simple <kbd>ctrl</
 You can list available commands running the jar without arguments, or with the `list` command.
 
 ```shell
-java -jar target/plecerf-rps.jar
+java -jar target/rock-paper-scissors.jar
 ```
 
 This should give you the following output:
