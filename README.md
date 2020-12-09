@@ -48,7 +48,7 @@ Running `play` without arguments should display the following:
 ```
 
 Whenever the game prompts you, you can type one of the following actions:
-* `ROCK`, `PAPER`, `SCISSOR` should be obvious
+* `ROCK`, `PAPER`, `SCISSORS` should be obvious
 * `CONCEDE` will abort the game, which will result in an automatic defeat
 
 If you need to exit the game prematurely without conceding, a simple <kbd>ctrl</kbd> + <kbd>c</kbd> should do the trick.
