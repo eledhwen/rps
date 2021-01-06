@@ -4,6 +4,7 @@
 ![GitHub](https://img.shields.io/github/license/eledhwen/rps)
 
 A very simple Rock Paper Scissors CLI game with a handful of simple AI strategies.
+
 This was a timed development that took around 3h, some areas could definitely be improved.
 
 _Note: This project is considered as "in beta" and as such significant API changes may occur without prior warning._
